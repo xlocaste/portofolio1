@@ -1,0 +1,26 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/
+    - /bin/cp app $DEPLOYPATH
+    - /bin/cp bootstrap $DEPLOYPATH
+    - /bin/cp config $DEPLOYPATH
+    - /bin/cp database $DEPLOYPATH
+    - /bin/cp public $DEPLOYPATH
+    - /bin/cp resources $DEPLOYPATH
+    - /bin/cp routes $DEPLOYPATH
+    - /bin/cp storage $DEPLOYPATH
+    - /bin/cp tests $DEPLOYPATH
+    - /bin/cp .editorconfig $DEPLOYPATH
+    - /bin/cp .env $DEPLOYPATH
+    - /bin/cp .gitattributes $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp artisan $DEPLOYPATH
+    - /bin/cp composer.json $DEPLOYPATH
+    - /bin/cp composer.lock $DEPLOYPATH
+    - /bin/cp package.json $DEPLOYPATH
+    - /bin/cp phpunit.xml $DEPLOYPATH
+    - /bin/cp postcss.config.js $DEPLOYPATH
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/cp tailwind.config.js $DEPLOYPATH
+    - /bin/cp vite.config.js $DEPLOYPATH
